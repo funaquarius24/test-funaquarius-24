@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleResponsive.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <title>Kingsley</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo" />
+            Kingsley
+        </div>
+        <div class="menu">
+            <a class="underline active" href="#greeting">Home</a>
+            <span class="underline" id="aboutButton">About</span>
+            <a class="underline" href="#skills">Skills</a>
+            <a class="underline" href="#portfolio">Portfolio</a>
+        </div>
+        <div class="contact">
+            <a href="#contactMe" class="button" id="contactButton">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+    <!-- HEADER RESPONSIVE -->
+    <header id="resHeader">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo" /> Kingsley
+        </div>
+        <div class="hamburgerMenu">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </div>
+        </div>
+    </header>
+</body>
+
 </html>
